@@ -1,0 +1,7 @@
+# Arse2
+usuario de super admin
+
+Usuario:superadmin
+Contraseña:superadmin123
+
+

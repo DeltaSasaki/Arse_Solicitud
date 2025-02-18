@@ -72,13 +72,13 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 20px;
+            margin: 25px;
         }
 
         input[type="month"] {
             margin: 20px 0;
             padding: 10px;
-            font-size: 16px;
+            font-size: 20px;
         }
 
         canvas {
@@ -113,19 +113,19 @@
 </header>
 
     <!-- Selector de fecha -->
-    <div class="container mt-5 pt-5 text-center">
+    <div class="container mt-5 pt-5 text-start" style="font-size: 20px; position: absolute; top: 10; left: 10;">
         <label for="selectorFecha">Selecciona un mes:</label>
         <input type="month" id="selectorFecha" />
         <br>
-        <button id="toggleChartType" class="btn btn-primary mt-3">Cambiar a Gráfica de Pastel</button>
+        <button id="toggleChartType" class="btn btn-primary mt-3" style="font-size: 20px; position: absolute; top: 10; left: 10;">Cambiar a Gráfica de Pastel</button>
     </div>
 
     <!-- Gráfica -->
-    <div class="container mt-3">
-        <canvas id="histogramaSolicitudes" width="800" height="400"></canvas>
+    <div class="container mt-3 d-flex justify-content-center align-items-center" style="height: 900px;">
+            
+            <canvas id="histogramaSolicitudes" width="1000" height="600"></canvas>
     </div>
 
-   
     
     <footer class="py-3 text-center position-fixed bottom-0 w-100" style="background-color: #FF6B00; height: 50px;">
     <div class="container d-flex justify-content-center w-100">

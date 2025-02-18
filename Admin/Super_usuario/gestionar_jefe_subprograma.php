@@ -21,7 +21,7 @@ $jefes = obtenerJefesSubprograma($pdo);
             margin: 0px;
             padding: 0px;
             font-family: Arial, sans-serif;
-            background-image: url('../../Imagen/Fondo_menu.png');
+            background-image: url('../../Imagen/2.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;

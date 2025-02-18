@@ -142,23 +142,30 @@ body {
     background-color: red;
     border: 1px solid black;
     color: black;
+    width: 50px; /* Define el ancho */
+    height: 50px; /* Define la altura */
 }
 .solicitudes-menu .badge-diferidas {
     background-color: yellow;
     border: 1px solid black;
     color: black;
-    top: 40px;
+    top: 70px;
+    width: 50px; /* Define el ancho */
+    height: 50px; /* Define la altura */
 }
 .solicitudes-menu .badge-elevadas {
     background-color: turquoise;
     border: 1px solid black;
     color: black;
-    top: 70px;
+    top: 130px;
+    width: 50px; /* Define el ancho */
+    height: 50px; /* Define la altura */
 }
 
 </style>
 </head>
 <body>
+
 <header class="d-flex justify-content-between align-items-center">
         <a href="perfil_jefesubprograma.php">
         <img title="Inicio"  src="../imagen/logo unellez.png" alt="Logo Unellez" width="60">

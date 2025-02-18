@@ -67,8 +67,9 @@ footer a:hover {
 
 .transform-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    margin: 20px auto;
-    max-width: 600px;
+    margin: 100px auto;
+    max-width: 700px;
+    height: 300px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -83,8 +84,9 @@ footer a:hover {
 }
 
 .card-title {
+    margin: 20px auto;
     color: #FF6B00;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -94,11 +96,36 @@ footer a:hover {
 
 .card-text-label {
     color: #FF6B00;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
+.card-text{
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
 
+.modal-body{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.modal-title{
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-control{
+    font-size: 20px;
+    font-family: "Arial";
+    margin-bottom: 0.5rem;
+}
 
 .miperfil {
     cursor: pointer;

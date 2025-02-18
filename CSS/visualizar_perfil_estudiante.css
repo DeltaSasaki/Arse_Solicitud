@@ -105,6 +105,8 @@ footer a:hover {
 
 .card-title {
     color: #FF6B00;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .card-title:hover {
@@ -113,7 +115,7 @@ footer a:hover {
 
 .card-text-label {
     color: #FF6B00;
-    font-weight: bold;
+    font-size: 20px;
     margin-bottom: 0.5rem;
 }
 
@@ -134,7 +136,7 @@ footer a:hover {
 .miperfil {
     cursor: pointer;
     padding: 10px 150px;
-    font-size: 24px;
+    font-size: 25px;
     border-radius: 15px;
     max-width: 500px;
     text-align: center;
